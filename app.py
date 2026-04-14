@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 “””
-SMT Reel Master - Flask App
+L&P SMT Organizer - Flask App
 Run: python app.py
 Open browser: http://localhost:5000
 “””
@@ -214,7 +214,7 @@ return “””<!DOCTYPE html>
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>SMT Reel Master</title>
+<title>L&P SMT Organizer</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:system-ui,-apple-system,sans-serif;background:#f8fafc;color:#334155;display:flex;height:100vh;overflow:hidden;}
@@ -374,7 +374,7 @@ tr:hover td{background:#fafafa;}
 <div id="sidebar">
 <div class="logo">
 <div class="logo-icon">⚡</div>
-<div><div class="logo-text">SMT Reel</div><div class="logo-sub">Master</div></div>
+<div><div class="logo-text">L&P SMT</div><div class="logo-sub">Organizer</div></div>
 </div>
 <nav>
 <button class="nav-btn active" onclick="showPage('dashboard',this)">⊞ &nbsp;Dashboard</button>
@@ -400,7 +400,7 @@ tr:hover td{background:#fafafa;}
 
 <div class="page active" id="page-dashboard">
 <h1>Dashboard</h1>
-<p class="page-sub">SMT Reel &amp; Feeder overview</p>
+<p class="page-sub">L&amp;P SMT Reel &amp; Feeder Organizer</p>
 <div class="stat-grid" id="stat-grid"></div>
 <div class="two-col">
 <div class="card">
@@ -981,7 +981,7 @@ async function submitEditFeeder(id){
 
 if **name** == “**main**”:
 init_db()
-print(”\n✅  SMT Reel Master is running!”)
+print(”\n✅  L&P SMT Organizer is running!”)
 print(“📡  Open your browser at: http://localhost:5000”)
 print(“🌐  Or from another device: http://172.16.100.4:5000”)
 print(”    Press CTRL+C to stop\n”)
